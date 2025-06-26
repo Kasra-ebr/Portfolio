@@ -12,7 +12,7 @@ function Hero() {
               Hi, I'm <span className="highlight-text gradient-text">Kasra Ebrahimi</span>
             </h1>
             <h2 className="subtitle text-2xl md:text-3xl mb-6 typewriter text-gray-100">
-              Full Stack Developer & UI/UX Designer
+              Front End Developer & UI/UX Designer
             </h2>
             <p className="description text-gray-400 mb-8 text-lg">
               I create beautiful, functional digital experiences that solve real problems and deliver value.
