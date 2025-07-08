@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Technologies() {
   return (
@@ -23,14 +23,7 @@ function Technologies() {
             />
             <span className="text-sm font-medium">React</span>
           </div>
-          <div className="tech-icon bg-gray-800 p-6 rounded-xl flex flex-col items-center justify-center">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
-              className="w-12 h-12 mb-3"
-              alt="Next.js"
-            />
-            <span className="text-sm font-medium">Next.js</span>
-          </div>
+
           <div className="tech-icon bg-gray-800 p-6 rounded-xl flex flex-col items-center justify-center">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
@@ -65,21 +58,46 @@ function Technologies() {
           </div>
 
           {/* Backend Technologies */}
-          <div className="tech-icon bg-gray-800 p-6 rounded-xl flex flex-col items-center justify-center">
+
+          <div class="tech-icon bg-gray-800 p-6 rounded-xl flex flex-col items-center justify-center">
             <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-              className="w-12 h-12 mb-3"
-              alt="Node.js"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+              class="w-12 h-12 mb-3"
+              alt="Git"
             />
-            <span className="text-sm font-medium">Node.js</span>
+            <span class="text-sm font-medium">Git</span>
           </div>
-          <div className="tech-icon bg-gray-800 p-6 rounded-xl flex flex-col items-center justify-center">
+          <div class="tech-icon bg-gray-800 p-6 rounded-xl flex flex-col items-center justify-center">
             <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
-              className="w-12 h-12 mb-3"
-              alt="Express"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+              class="w-12 h-12 mb-3"
+              alt="GitHub"
             />
-            <span className="text-sm font-medium">Express</span>
+            <span class="text-sm font-medium">GitHub</span>
+          </div>
+          <div class="tech-icon bg-gray-800 p-6 rounded-xl flex flex-col items-center justify-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
+              class="w-12 h-12 mb-3"
+              alt="npm"
+            />
+            <span class="text-sm font-medium">npm</span>
+          </div>
+          <div class="tech-icon bg-gray-800 p-6 rounded-xl flex flex-col items-center justify-center">
+            <img
+              src="https://formik.org/images/favicon.png"
+              class="w-12 h-12 mb-3"
+              alt="Formik"
+            />
+            <span class="text-sm font-medium">Formik</span>
+          </div>
+          <div class="tech-icon bg-gray-800 p-6 rounded-xl flex flex-col items-center justify-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
+              class="w-12 h-12 mb-3"
+              alt="Redux"
+            />
+            <span class="text-sm font-medium">Redux</span>
           </div>
           <div className="tech-icon bg-gray-800 p-6 rounded-xl flex flex-col items-center justify-center">
             <img
@@ -89,14 +107,19 @@ function Technologies() {
             />
             <span className="text-sm font-medium">MongoDB</span>
           </div>
-          <div className="tech-icon bg-gray-800 p-6 rounded-xl flex flex-col items-center justify-center">
+          <div class="tech-icon bg-gray-800 p-6 rounded-xl flex flex-col items-center justify-center">
             <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
-              className="w-12 h-12 mb-3"
-              alt="PostgreSQL"
+              src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
+              class="w-12 h-12 mb-3"
+              alt="Postman"
             />
-            <span className="text-sm font-medium">PostgreSQL</span>
+            <span class="text-sm font-medium">Postman</span>
           </div>
+           <div class="tech-icon bg-gray-800 p-6 rounded-xl flex flex-col items-center justify-center">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" class="w-12 h-12 mb-3" alt="Jest" />
+                        <span class="text-sm font-medium">Jest</span>
+                    </div>
+
           <div className="tech-icon bg-gray-800 p-6 rounded-xl flex flex-col items-center justify-center">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
@@ -115,14 +138,7 @@ function Technologies() {
           </div>
 
           {/* Mobile & Design */}
-          <div className="tech-icon bg-gray-800 p-6 rounded-xl flex flex-col items-center justify-center">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-              className="w-12 h-12 mb-3"
-              alt="React Native"
-            />
-            <span className="text-sm font-medium">React Native</span>
-          </div>
+
           <div className="tech-icon bg-gray-800 p-6 rounded-xl flex flex-col items-center justify-center">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg"
@@ -139,14 +155,7 @@ function Technologies() {
             />
             <span className="text-sm font-medium">Figma</span>
           </div>
-          <div className="tech-icon bg-gray-800 p-6 rounded-xl flex flex-col items-center justify-center">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/adobe/adobe-original.svg"
-              className="w-12 h-12 mb-3"
-              alt="Adobe"
-            />
-            <span className="text-sm font-medium">Adobe XD</span>
-          </div>
+          
           <div className="tech-icon bg-gray-800 p-6 rounded-xl flex flex-col items-center justify-center">
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
@@ -154,14 +163,6 @@ function Technologies() {
               alt="Sass"
             />
             <span className="text-sm font-medium">Sass</span>
-          </div>
-          <div className="tech-icon bg-gray-800 p-6 rounded-xl flex flex-col items-center justify-center">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
-              className="w-12 h-12 mb-3"
-              alt="Docker"
-            />
-            <span className="text-sm font-medium">Docker</span>
           </div>
         </div>
       </div>
