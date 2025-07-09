@@ -1,5 +1,4 @@
-
-import React from 'react'
+import React from "react";
 import { MdOutlinePersonalVideo } from "react-icons/md";
 import { GoPerson } from "react-icons/go";
 
@@ -28,10 +27,18 @@ function About() {
                 <h3 className="text-2xl font-bold">Personal Background</h3>
               </div>
               <p className="text-gray-400 mb-3">
-               Based in Toronto, I’m a former aviation enthusiast with a lifelong passion for technology and creativity. My journey into coding began through self-directed learning, driven by curiosity and a desire to build. Before transitioning fully into tech, I cultivated my creative foundation as a designer and developed a deep interest in architecture drawn to the harmony between form and function.
+                Based in Toronto, I’m a former aviation enthusiast with a
+                lifelong passion for technology and creativity. My journey into
+                coding began through self-directed learning, driven by curiosity
+                and a desire to build. Before transitioning fully into tech, I
+                cultivated my creative foundation as a designer and developed a
+                deep interest in architecture drawn to the harmony between form
+                and function.
               </p>
               <p className="text-gray-400 mb-6">
-                I'm a builder who crafts code, creates music, shoots videography, and reads up on innovation and creativity. My passions drive my work, blending tech smarts with bold ideas.
+                I'm a builder who crafts code, creates music, shoots
+                videography, and reads up on innovation and creativity. My
+                passions drive my work, blending tech smarts with bold ideas.
               </p>
             </div>
           </div>
@@ -46,18 +53,27 @@ function About() {
                 <h3 className="text-2xl font-bold">Professional Journey</h3>
               </div>
               <p className="text-gray-400 mb-3">
-             With a background in design and a curiosity for how things work, I taught myself to code and fell in love with the process of turning ideas into functional, elegant digital products. Over time, I've combined my design instincts with technical skills to focus on building user-friendly, well-crafted applications.
+                With a background in design and a curiosity for how things work,
+                I taught myself to code and fell in love with the process of
+                turning ideas into functional, elegant digital products. Over
+                time, I've combined my design instincts with technical skills to
+                focus on building user-friendly, well-crafted applications.
               </p>
               <p className="text-gray-400 mb-6">
-                I specialize in React ecosystems and designing intuitive user interfaces. My work has been featured in design awards and helped businesses scale their digital presence.
+                I specialize in React ecosystems and designing intuitive user
+                interfaces. My work has been featured in design awards and
+                helped businesses scale their digital presence.
               </p>
               <div className="flex space-x-4">
-                <a
-                  href="#projects"
+                <button
+                  onClick={() =>
+                    window.open("https://github.com/Kasra-ebr/", "_blank")
+                  }
                   className="bg-gradient-to-r from-blue-500 to-purple-600 px-6 py-2 rounded-lg font-medium hover:opacity-90 transition"
                 >
                   View Projects
-                </a>
+                </button>
+
                 <a
                   href="#technologies"
                   className="border border-blue-400 px-6 py-2 rounded-lg font-medium hover:bg-blue-900 hover:bg-opacity-30 transition"
