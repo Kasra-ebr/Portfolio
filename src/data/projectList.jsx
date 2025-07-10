@@ -10,7 +10,7 @@
     },
     {
       id: 2,
-      video: 'src/video/FREELANCE.mp4', 
+      video: 'video/FREELANCE.mp4  autoPlay muted controls', 
       category: 'Freelancer-App',
       title: 'Freelancer-App',
       description: 'A complete freelance management platform to handle projects, proposals, and collaboration. Built to simplify workflows for freelancers and clients alike.',
