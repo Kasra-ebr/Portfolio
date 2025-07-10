@@ -1,5 +1,4 @@
 import React from "react";
-import { technologies } from "../data/TechList";
 export const technologies = [
 
   {
@@ -94,8 +93,8 @@ function Technologies() {
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
-          {technologies?.map(({ name, src }) => (
-            <TechCard key={name} name={name} src={src} />
+          {technologies?.map(({ name, src, index }) => (
+            <TechCard key={index} name={name} src={src} />
           ))}
         </div>
       </div>
