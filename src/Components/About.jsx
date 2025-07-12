@@ -25,7 +25,7 @@ function About() {
                   </i>
                 </div>
                 <h3 className="text-2xl font-bold">Personal Background</h3>
-              </div>
+              </div> 
               <p className="text-gray-400 mb-3">
                 Based in Toronto, I’m a former aviation enthusiast with a
                 lifelong passion for technology and creativity. My journey into

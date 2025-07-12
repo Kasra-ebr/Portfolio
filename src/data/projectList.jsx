@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: 1,
-    video: 'public/video/TravelBook1.mp4',
+    video: 'TravelBook1.mp4',
     category: 'Web Design',
     title: 'Booking-Hotel-App',
     description:
@@ -11,7 +11,7 @@ export const projects = [
   },
   {
     id: 2,
-    video: 'public/video/FREELANCE.mp4',
+    video: 'FREELANCE.mp4',
     category: 'Freelancer-App',
     title: 'Freelancer-App',
     description:
@@ -21,7 +21,7 @@ export const projects = [
   },
   {
     id: 3,
-    video: 'public/video/RICKANDMORTY1.mp4',
+    video: 'RICKANDMORTY1.mp4',
     category: 'UI/UX',
     title: 'RickandMorty-App',
     description:

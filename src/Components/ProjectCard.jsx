@@ -1,16 +1,7 @@
 import React from "react";
 import "./../App.css";
 
-const ProjectCard = ({
-  image,
-  video,
-  category,
-  title,
-  description,
-  price,
-  link,
-  id,
-}) => {
+const ProjectCard = ({ image,video,category,title,description, price, link, id,}) => {
   return (
     <div className="project-card bg-gray-700 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition">
       <div className="relative">
@@ -60,7 +51,7 @@ const ProjectCard = ({
             Technical Highlights:
           </h4>
           <div className="flex flex-wrap">
-            <span className="tech-badge">React</span>
+            <span className="tech-badge">React</span> 
             <span className="tech-badge">TypeScript</span>
             <span className="tech-badge">React Router</span>
             <span className="tech-badge">Context API</span>

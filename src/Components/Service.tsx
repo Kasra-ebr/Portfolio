@@ -1,7 +1,7 @@
 import React from 'react';
 import './../App.css'; 
 
-import { services } from '../data/servicesList';
+import { services } from '../data/ServicesList';
 
 function Service() {
   return (

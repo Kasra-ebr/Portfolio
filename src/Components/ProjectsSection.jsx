@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import "./../App.css";
-import { projects } from "../data/projectList";
+import { projects } from "../data/ProjectList";
 
 const ProjectsSection = () => {
   return (
