@@ -33,12 +33,7 @@ const ProjectCard = ({ image, video, category, title, description, price, link, 
               >
                 <i className="far fa-heart"></i>
               </button>
-              <button
-                className="view-details bg-green-500 hover:bg-green-600 text-white px-3 py-1 rounded text-sm transition"
-                data-id={id}
-              >
-                View Details
-              </button>
+              
             </div>
           </div>
         </div>
@@ -62,13 +57,6 @@ const ProjectCard = ({ image, video, category, title, description, price, link, 
           </div>
         </div>
 
-        <a
-          href={link}
-          className="text-blue-400 hover:text-blue-300 transition view-details"
-          data-id={id}
-        >
-          View Details →
-        </a>
       </div>
     </div>
   );
