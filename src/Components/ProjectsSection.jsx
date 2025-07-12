@@ -7,7 +7,7 @@ import "./../App.css";
 export const projects = [
   {
     id: 1,
-  video: '/src/Travelbook.mp4',
+  video: '/Travelbook.mp4',
     category: 'Web Design',
     title: 'Booking-Hotel-App',
     description:
@@ -17,7 +17,7 @@ export const projects = [
   },
   {
     id: 2,
-    video: 'src/FREELANCE.mp4',
+    video: '/FREELANCE.mp4',
     category: 'Freelancer-App',
     title: 'Freelancer-App',
     description:
@@ -27,7 +27,7 @@ export const projects = [
   },
   {
     id: 3,
-    video: '/src/RICKANDMORTY.mp4',
+    video: '/RICKANDMORTY.mp4',
     category: 'UI/UX',
     title: 'RickandMorty-App',
     description:
