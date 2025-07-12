@@ -76,7 +76,8 @@ function About() {
 
                 <a
                   href="#technologies"
-                  className="border border-blue-400 px-6 py-2 rounded-lg font-medium hover:bg-blue-900 hover:bg-opacity-30 transition"
+                  className="px-6 py-2 border border-blue-400 rounded-lg font-medium text-center hover:bg-blue-900 hover:bg-opacity-30 transition"
+
                 >
                   My Tech Stack
                 </a>
