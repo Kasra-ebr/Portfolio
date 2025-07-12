@@ -15,7 +15,7 @@ export const projects = [
   },
   {
     id: 2,
-    video: '/Freelance.mp4',
+    video: '/Freelancer.mp4',
     category: 'Freelancer-App',
     title: 'Freelancer-App',
     description:

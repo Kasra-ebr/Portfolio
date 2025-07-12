@@ -5,6 +5,7 @@ import { MdOutlineLocationOn } from "react-icons/md";
 import { TbWorld } from "react-icons/tb";
 import { FaInstagram, FaLinkedin, FaFacebook } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import emailjs from "@emailjs/browser";
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -21,9 +22,23 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    localStorage.setItem("contactForm", JSON.stringify(formData));
-
-    setFormData({ name: "", email: "", message: "" });
+    emailjs
+      .send(
+        "service_6qpyu93",      //  Replace with your actual service ID
+        "template_svs9gqq",     //  Replace with your actual template ID
+        formData,
+        "ilsdzzVlfK3uOnryF"       //  Replace with your actual public key
+      )
+      .then(
+        () => {
+          alert("Message sent successfully!");
+          setFormData({ name: "", email: "", message: "" });
+        },
+        (error) => {
+          console.error("EmailJS Error:", error);
+          alert("Failed to send message. Please try again later.");
+        }
+      );
   };
 
   return (
@@ -55,7 +70,8 @@ function Contact() {
                   value={formData.name}
                   onChange={handleChange}
                   className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-100"
-                  placeholder="John Doe"
+                  placeholder="name "
+                  required
                 />
               </div>
               <div>
@@ -72,6 +88,7 @@ function Contact() {
                   onChange={handleChange}
                   className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-100"
                   placeholder="john@example.com"
+                  required
                 />
               </div>
               <div>
@@ -88,6 +105,7 @@ function Contact() {
                   onChange={handleChange}
                   className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-100"
                   placeholder="Hello Kasra, I'd like to talk about..."
+                  required
                 ></textarea>
               </div>
               <button
@@ -99,7 +117,6 @@ function Contact() {
             </form>
           </div>
 
-         
           <div className="md:w-1/2">
             <div className="bg-gray-700 p-8 rounded-xl h-full">
               <h3 className="text-xl font-bold mb-6 text-gray-100">
