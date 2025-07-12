@@ -7,10 +7,11 @@ const ProjectCard = ({ image,video,category,title,description, price, link, id,}
       <div className="relative">
         {video ? (
           <video
-            src={video}
+            src={video} 
             autoPlay
             loop
             muted
+            allowFullScreen
             playsInline
             className="pointer-events-none w-full h-48 object-cover object-top"
           ></video>

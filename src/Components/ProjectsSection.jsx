@@ -3,10 +3,11 @@ import ProjectCard from "./ProjectCard";
 import "./../App.css";
 
 
+
 export const projects = [
   {
     id: 1,
-    video: '/TravelBook1.mp4',
+  video: '/src/Travelbook.mp4',
     category: 'Web Design',
     title: 'Booking-Hotel-App',
     description:
@@ -16,7 +17,7 @@ export const projects = [
   },
   {
     id: 2,
-    video: '/FREELANCE.mp4',
+    video: 'src/FREELANCE.mp4',
     category: 'Freelancer-App',
     title: 'Freelancer-App',
     description:
@@ -26,7 +27,7 @@ export const projects = [
   },
   {
     id: 3,
-    video: '/RICKANDMORTY1.mp4',
+    video: '/src/RICKANDMORTY.mp4',
     category: 'UI/UX',
     title: 'RickandMorty-App',
     description:
@@ -35,7 +36,6 @@ export const projects = [
     link: '#',
   },
 ];
-
 
 const ProjectsSection = () => {
   return (
