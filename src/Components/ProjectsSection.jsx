@@ -15,7 +15,7 @@ export const projects = [
   },
   {
     id: 2,
-    video: '/FREELANCE.mp4',
+    video: '/Freelance.mp4',
     category: 'Freelancer-App',
     title: 'Freelancer-App',
     description:
@@ -25,7 +25,7 @@ export const projects = [
   },
   {
     id: 3,
-    video: '/RICKANDMORTY.mp4',
+    video: '/RickandMorty.mp4',
     category: 'UI/UX',
     title: 'RickandMorty-App',
     description:

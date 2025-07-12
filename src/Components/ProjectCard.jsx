@@ -13,7 +13,7 @@ const ProjectCard = ({ image, video, category, title, description, price, link, 
             muted
             allowFullScreen
             playsInline
-            className="pointer-events-none w-full h-48 object-cover object-top"
+            className="pointer-events-none w-full h-43 object-cover object-top"
             controls
           >
             <source src={video} type="video/mp4" />
