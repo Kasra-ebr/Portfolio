@@ -1,20 +1,23 @@
 import React from "react";
 import "./../App.css";
 
-const ProjectCard = ({ image,video,category,title,description, price, link, id,}) => {
+const ProjectCard = ({ image, video, category, title, description, price, link, id }) => {
   return (
     <div className="project-card bg-gray-700 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition">
       <div className="relative">
         {video ? (
           <video
-            src={video} 
+            src={video}
             autoPlay
             loop
             muted
             allowFullScreen
             playsInline
             className="pointer-events-none w-full h-48 object-cover object-top"
-          ></video>
+            controls
+          >
+            <source src={video} type="video/mp4" />
+          </video>
         ) : (
           <img src={image} alt={title} className="w-full h-48 object-contain" />
         )}
@@ -52,7 +55,7 @@ const ProjectCard = ({ image,video,category,title,description, price, link, id,}
             Technical Highlights:
           </h4>
           <div className="flex flex-wrap">
-            <span className="tech-badge">React</span> 
+            <span className="tech-badge">React</span>
             <span className="tech-badge">TypeScript</span>
             <span className="tech-badge">React Router</span>
             <span className="tech-badge">Context API</span>

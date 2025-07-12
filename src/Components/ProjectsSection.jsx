@@ -2,12 +2,10 @@ import React from "react";
 import ProjectCard from "./ProjectCard";
 import "./../App.css";
 
-
-
 export const projects = [
   {
     id: 1,
-  video: '/Travelbook.mp4',
+    video: '/Travelbook.mp4',
     category: 'Web Design',
     title: 'Booking-Hotel-App',
     description:
@@ -68,16 +66,14 @@ const ProjectsSection = () => {
         </div>
 
         <div className="text-center mt-12">
-          <div className="text-center mt-12">
-            <button
-              onClick={() =>
-                window.open("https://github.com/Kasra-ebr/", "_blank")
-              }
-              className="border border-blue-400 text-blue-400 hover:bg-blue-900 hover:bg-opacity-30 px-6 py-3 rounded-lg font-medium transition"
-            >
-              View All Projects
-            </button>
-          </div>
+          <button
+            onClick={() =>
+              window.open("https://github.com/Kasra-ebr/", "_blank")
+            }
+            className="border border-blue-400 text-blue-400 hover:bg-blue-900 hover:bg-opacity-30 px-6 py-3 rounded-lg font-medium transition"
+          >
+            View All Projects
+          </button>
         </div>
       </div>
     </section>
