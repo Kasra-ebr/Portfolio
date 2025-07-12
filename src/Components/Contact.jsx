@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./../App.css";
 import { HiOutlineMail } from "react-icons/hi";
 import { MdOutlineLocationOn } from "react-icons/md";
@@ -14,6 +14,11 @@ function Contact() {
     message: "",
   });
 
+  useEffect(() => {
+    // Initialize EmailJS with your public key
+    emailjs.init("3W3TqLH2JfOLirvAU");
+  }, []);
+
   const handleChange = (e) => {
     const { id, value } = e.target;
     setFormData((prev) => ({ ...prev, [id]: value }));
@@ -24,10 +29,14 @@ function Contact() {
 
     emailjs
       .send(
-        "service_6qpyu93",      //  Replace with your actual service ID
-        "template_svs9gqq",     //  Replace with your actual template ID
-        formData,
-        "ilsdzzVlfK3uOnryF"       //  Replace with your actual public key
+        "service_6qpyu93",
+        "template_wsa2ei4",
+        {
+          name: formData.name,
+          email: formData.email,
+          message: formData.message,
+        },
+        "3W3TqLH2JfOLirvAU"
       )
       .then(
         () => {
@@ -36,7 +45,9 @@ function Contact() {
         },
         (error) => {
           console.error("EmailJS Error:", error);
-          alert("Failed to send message. Please try again later.");
+          alert(
+            `Failed to send message. ${error.text || "Please try again later."}`
+          );
         }
       );
   };
@@ -70,7 +81,7 @@ function Contact() {
                   value={formData.name}
                   onChange={handleChange}
                   className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-100"
-                  placeholder="name "
+                  placeholder="John Doe"
                   required
                 />
               </div>
