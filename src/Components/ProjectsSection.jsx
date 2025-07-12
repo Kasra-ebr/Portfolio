@@ -9,7 +9,7 @@ export const projects = [
     category: 'Web Design',
     title: 'Booking-Hotel-App',
     description:
-      'A modern travel assistant web application built with React, TypeScript, React.',
+      'A modern travel assistant web application built with React, TypeScript, and React Router for seamless navigation and a smooth user experience.',
     price: 49,
     link: '#',
   },
@@ -29,7 +29,7 @@ export const projects = [
     category: 'UI/UX',
     title: 'RickandMorty-App',
     description:
-      'A React app using functional components, React Hooks, and Context API for global state management.',
+      'A React app using functional components, React Hooks, and Context API for global state management, enabling efficient data flow and cleaner component structure.',
     price: 59,
     link: '#',
   },

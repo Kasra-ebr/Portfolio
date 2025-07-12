@@ -23,9 +23,7 @@ const ProjectCard = ({ image, video, category, title, description, price, link, 
 
         <div className="project-overlay absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-0 flex flex-col justify-end p-6 transition duration-300 transform translate-y-4 hover:opacity-100 hover:translate-y-0">
           <div className="flex justify-between items-center">
-            <span className="bg-green-500 text-white text-xs px-2 py-1 rounded">
-              {category}
-            </span>
+        
             <div className="flex space-x-2">
               <button
                 className="like-btn text-white hover:text-red-500 transition"
