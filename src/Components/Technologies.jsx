@@ -63,7 +63,7 @@ export const technologies = [
   {
     id: 13,
     name: "jira",
-    src: "file:///C:/Users/Kasra/Downloads/jira-1.svg",
+    src: "/Jira.svg",
   },
   {
     id: 14,
