@@ -62,8 +62,8 @@ export const technologies = [
   },
   {
     id: 13,
-    name: "Jest",
-    src: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
+    name: "jira",
+    src: "file:///C:/Users/Kasra/Downloads/jira-1.svg",
   },
   {
     id: 14,
