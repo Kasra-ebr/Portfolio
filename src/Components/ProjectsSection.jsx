@@ -25,7 +25,7 @@ export const projects = [
   },
   {
     id: 3,
-    video: '/Rickandmorty.mp4',
+    video: '/RICKANDMORTY.mp4',
     category: 'UI/UX',
     title: 'RickandMorty-App',
     description:
