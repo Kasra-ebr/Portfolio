@@ -8,3 +8,13 @@ createRoot(document.getElementById('root')).render(
     <App />
   </StrictMode>,
 )
+
+
+// Build command:
+// npm run build
+// Build output:
+// dist
+// Root directory:
+// .
+// Build comments:
+// Enabled

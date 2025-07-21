@@ -27,8 +27,7 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs
-      .send(
+    emailjs.send(
         "service_6qpyu93",
         "template_wsa2ei4",
         {
@@ -37,8 +36,7 @@ function Contact() {
           message: formData.message,
         },
         "3W3TqLH2JfOLirvAU"
-      )
-      .then(
+      ).then(
         () => {
           alert("Message sent successfully!");
           setFormData({ name: "", email: "", message: "" });
@@ -81,7 +79,7 @@ function Contact() {
                   value={formData.name}
                   onChange={handleChange}
                   className="w-full px-4 py-3 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-100"
-                  placeholder="John Doe"
+                  placeholder=" Please Enter Your Name "
                   required
                 />
               </div>
